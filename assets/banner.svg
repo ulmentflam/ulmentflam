@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f2e"/>
+      <stop offset="100%" style="stop-color:#141827"/>
+    </linearGradient>
+    <linearGradient id="tealFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2dd4bf;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#2dd4bf;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="tealFade2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#2dd4bf;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#2dd4bf;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="tealVert" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2dd4bf;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#2dd4bf;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+
+  <!-- Circuit trace decorations - top left cluster -->
+  <g stroke="url(#tealFade)" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M0,40 H120 L140,60 H220"/>
+    <path d="M0,70 H80 L95,55 H160"/>
+    <path d="M0,110 H60 L80,90 H180 L200,110 H260"/>
+    <path d="M30,140 H100 L115,155 H200"/>
+    <path d="M120,0 V30 L140,50 V80"/>
+    <path d="M200,0 V50 L220,70 V120"/>
+    <path d="M80,80 V130 L100,150 V180"/>
+    <circle cx="120" cy="40" r="3" fill="#2dd4bf" opacity="0.8"/>
+    <circle cx="220" cy="60" r="3" fill="#2dd4bf" opacity="0.6"/>
+    <circle cx="80" cy="70" r="3" fill="#2dd4bf" opacity="0.7"/>
+    <circle cx="160" cy="55" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+    <circle cx="260" cy="110" r="3" fill="#2dd4bf" opacity="0.6"/>
+    <circle cx="200" cy="110" r="2.5" fill="#2dd4bf" opacity="0.7"/>
+    <circle cx="100" cy="140" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+    <circle cx="200" cy="155" r="3" fill="#2dd4bf" opacity="0.6"/>
+    <circle cx="140" cy="50" r="2" fill="#2dd4bf" opacity="0.4"/>
+    <circle cx="220" cy="70" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+  </g>
+
+  <!-- Circuit trace decorations - bottom right cluster -->
+  <g stroke="url(#tealFade2)" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M1280,280 H1160 L1140,260 H1060"/>
+    <path d="M1280,250 H1200 L1185,265 H1120"/>
+    <path d="M1280,210 H1220 L1200,230 H1100 L1080,210 H1020"/>
+    <path d="M1250,180 H1180 L1165,165 H1080"/>
+    <path d="M1160,320 V290 L1140,270 V240"/>
+    <path d="M1080,320 V270 L1060,250 V200"/>
+    <path d="M1200,240 V190 L1180,170 V140"/>
+    <circle cx="1160" cy="280" r="3" fill="#2dd4bf" opacity="0.8"/>
+    <circle cx="1060" cy="260" r="3" fill="#2dd4bf" opacity="0.6"/>
+    <circle cx="1200" cy="250" r="3" fill="#2dd4bf" opacity="0.7"/>
+    <circle cx="1120" cy="265" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+    <circle cx="1020" cy="210" r="3" fill="#2dd4bf" opacity="0.6"/>
+    <circle cx="1080" cy="210" r="2.5" fill="#2dd4bf" opacity="0.7"/>
+    <circle cx="1180" cy="180" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+    <circle cx="1080" cy="165" r="3" fill="#2dd4bf" opacity="0.6"/>
+    <circle cx="1140" cy="270" r="2" fill="#2dd4bf" opacity="0.4"/>
+    <circle cx="1060" cy="250" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+  </g>
+
+  <!-- Subtle top-right traces -->
+  <g stroke="url(#tealVert)" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M1000,0 V40 L1020,60 H1060 L1080,40 V0"/>
+    <path d="M1100,0 V25 L1120,45 H1150"/>
+    <circle cx="1020" cy="60" r="2" fill="#2dd4bf" opacity="0.3"/>
+    <circle cx="1080" cy="40" r="2" fill="#2dd4bf" opacity="0.3"/>
+  </g>
+
+  <!-- Subtle bottom-left traces -->
+  <g stroke="url(#tealVert)" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M280,320 V280 L260,260 H220 L200,280 V320"/>
+    <path d="M180,320 V295 L160,275 H130"/>
+    <circle cx="260" cy="260" r="2" fill="#2dd4bf" opacity="0.3"/>
+    <circle cx="200" cy="280" r="2" fill="#2dd4bf" opacity="0.3"/>
+  </g>
+
+  <!-- Main text -->
+  <text x="640" y="140" text-anchor="middle" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="2">
+    Evan Owen
+  </text>
+
+  <!-- Subtitle -->
+  <text x="640" y="190" text-anchor="middle" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#2dd4bf" letter-spacing="4">
+    CTO &amp; AI RESEARCHER
+  </text>
+
+  <!-- Thin teal accent line under subtitle -->
+  <line x1="540" y1="210" x2="740" y2="210" stroke="#2dd4bf" stroke-width="1" opacity="0.5"/>
+</svg>
