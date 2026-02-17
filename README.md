@@ -123,12 +123,12 @@ CTO & Co-Founder at **QWERKY AI**, where I build novel LLM architectures from CU
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ulmentflam&show_icons=true&hide_border=true&bg_color=1a1f2e&title_color=2DD4BF&icon_color=2DD4BF&text_color=ffffff&ring_color=2DD4BF" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ulmentflam&hide_border=true&background=1A1F2E&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" alt="GitHub Streak" height="170"/>
+  <img src="assets/stats.svg" alt="GitHub Stats" height="170"/>
+  <img src="https://streak-stats.demolab.com?user=ulmentflam&hide_border=true&background=1A1F2E&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" alt="GitHub Streak" height="170"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulmentflam&layout=compact&hide_border=true&bg_color=1a1f2e&title_color=2DD4BF&text_color=ffffff&langs_count=8" alt="Top Languages" height="170"/>
+  <img src="assets/top-langs.svg" alt="Top Languages" height="170"/>
 </p>
 
 ---
