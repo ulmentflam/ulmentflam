@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Evan Owen - CTO & AI Researcher" width="100%"/>
+  <img src="assets/banner.svg" alt="Evan Owen - AI Researcher & Engineer" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2DD4BF&center=true&vCenter=true&width=600&lines=CTO+%26+Co-Founder+%40+QWERKY+AI;MS+Computer+Science+%40+Georgia+Tech;AI+Researcher+%7C+Systems+Engineer" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2DD4BF&center=true&vCenter=true&width=600&lines=AI+Researcher+%7C+Systems+Engineer;MS+Computer+Science+%40+Georgia+Tech;Former+Co-Founder+%26+CTO+%40+QWERKY+AI" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -17,14 +17,14 @@
 
 ### Hey, I'm Evan
 
-CTO & Co-Founder at **QWERKY AI**, where I build novel LLM architectures from CUDA kernels to production inference. Currently pursuing my **MS in Computer Science at Georgia Tech** while shipping AI systems at scale. Over my career I've accumulated **10+ years of experience**, shipped **15+ production apps**, led teams of **20+ engineers**, and have a **pending LLM patent**.
+AI researcher and systems engineer with **10+ years** shipping production systems at scale. Former Co-Founder & CTO at **QWERKY AI**, where I distilled **70B-parameter LLMs into 3B-8B hybrid models on 24 H200 GPUs** with a **pending patent** on novel attention architectures. Currently pursuing my **MS in Computer Science at Georgia Tech** (BS CS, *Summa Cum Laude*, University of South Carolina). I've led teams of **20+ engineers** and shipped **15+ production applications** across AI, blockchain, and distributed systems.
 
 ### What I'm Working On
 
-- **LLM Architecture Research** -- Novel attention mechanisms with custom CUDA implementations
-- **State Space Models** -- Contributing Mamba SSM architectures to Modular's MAX framework in Mojo
-- **QDistill** -- Transforming transformer layers to state space layers for 4x throughput and 1M token context lengths
-- **Open Source** -- Kernels for selective scan, causal conv1d, and RMSNorm in the Modular ecosystem
+- **LLM Architecture Research** -- Custom CUDA kernels for novel attention mechanisms (pending patent)
+- **State Space Models** -- Contributed Mamba SSM architecture to Modular's MAX framework in Mojo
+- **QDistill** -- 70B→3B-8B hybrid distillation achieving 4x throughput and 1M token context lengths
+- **Open Source** -- Selective scan, causal conv1d, and RMSNorm kernels in the Modular ecosystem
 
 ### Tech Stack
 
@@ -43,6 +43,9 @@ CTO & Co-Founder at **QWERKY AI**, where I build novel LLM architectures from CU
 **AI / ML**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![DeepSpeed](https://img.shields.io/badge/DeepSpeed-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-FF6F00?style=flat-square&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![ROCm](https://img.shields.io/badge/ROCm-ED1C24?style=flat-square&logo=amd&logoColor=white)
 
@@ -82,7 +85,7 @@ CTO & Co-Founder at **QWERKY AI**, where I build novel LLM architectures from CU
 <td width="50%">
 
 **[QWERKY AI](https://qwerky.ai)**
-<br/>Novel LLM architectures with a pending patent. QDistill: 4x throughput, 1M token context lengths.
+<br/>Distilled 70B→3B-8B hybrid models on 24 H200 GPUs. 4x inference throughput, 1M token context. Pending patent on novel attention architecture.
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
@@ -96,14 +99,6 @@ CTO & Co-Founder at **QWERKY AI**, where I build novel LLM architectures from CU
 <br/>
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Stars](https://img.shields.io/github/stars/ulmentflam/key-gen?style=flat-square&color=2DD4BF)
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-
-**[Robot2815](https://github.com/ulmentflam/Robot2815)** -- FIRST Robotics Competition team code
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 </td>
 </tr>
