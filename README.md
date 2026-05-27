@@ -21,10 +21,11 @@ AI researcher and systems engineer with **10+ years** shipping production system
 
 ### What I'm Working On
 
+- **[Nightly](https://github.com/ulmentflam/nightly)** -- Turns your coding CLI into a self-directed, drainable session that lands review-shaped PRs by morning
+- **[Corpus Forge](https://github.com/ulmentflam/corpus-forge)** -- Filesystem-to-SQL sync with vector embeddings for storing and serving sovereign AI models
+- **[Autosentry](https://github.com/ulmentflam/autosentry)** -- Self-healing supervisor for long-running processes -- watch, catch the failure, fix it, leave a paper trail
 - **LLM Architecture Research** -- Custom CUDA kernels for novel attention mechanisms (pending patent)
-- **State Space Models** -- Contributed Mamba SSM architecture to Modular's MAX framework in Mojo
-- **QDistill** -- 70B→3B-8B hybrid distillation achieving 4x throughput and 1M token context lengths
-- **Open Source** -- Selective scan, causal conv1d, and RMSNorm kernels in the Modular ecosystem
+- **State Space Models** -- Mamba SSM architecture in Modular's MAX framework (selective scan, causal conv1d, RMSNorm kernels in Mojo)
 
 ### Tech Stack
 
@@ -63,21 +64,41 @@ AI researcher and systems engineer with **10+ years** shipping production system
 <tr>
 <td width="50%">
 
+**[Nightly](https://github.com/ulmentflam/nightly)**
+<br/>Turns your coding CLI (Claude Code, Codex, Cursor, Gemini) into a self-directed, drainable session that lands review-shaped PRs by morning.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Stars](https://img.shields.io/github/stars/ulmentflam/nightly?style=flat-square&color=2DD4BF)
+
+</td>
+<td width="50%">
+
+**[Corpus Forge](https://github.com/ulmentflam/corpus-forge)**
+<br/>Syncs a local filesystem with a SQL database and vector embeddings -- storage and serving for sovereign AI models.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Stars](https://img.shields.io/github/stars/ulmentflam/corpus-forge?style=flat-square&color=2DD4BF)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Autosentry](https://github.com/ulmentflam/autosentry)**
+<br/>Self-healing supervisor for long-running processes -- watch a command, catch the failure, fix it, leave a paper trail.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Stars](https://img.shields.io/github/stars/ulmentflam/autosentry?style=flat-square&color=2DD4BF)
+
+</td>
+<td width="50%">
+
 **[Modular MAX Framework](https://github.com/modular/modular)**
 <br/>Mamba SSM architecture with custom selective scan, causal conv1d, and RMSNorm kernels in Mojo
 <br/>
 ![Mojo](https://img.shields.io/badge/Mojo-FF6F00?style=flat-square&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Stars](https://img.shields.io/github/stars/modular/modular?style=flat-square&color=2DD4BF)
-
-</td>
-<td width="50%">
-
-**[Pulley](https://github.com/52inc/Pulley)**
-<br/>iOS Maps-style drawer library with 2k+ stars, created at 52 Inc.
-<br/>
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![Stars](https://img.shields.io/github/stars/52inc/Pulley?style=flat-square&color=2DD4BF)
 
 </td>
 </tr>
@@ -94,11 +115,11 @@ AI researcher and systems engineer with **10+ years** shipping production system
 </td>
 <td width="50%">
 
-**[key-gen](https://github.com/ulmentflam/key-gen)**
-<br/>BIP-0044 compatible multi-blockchain key generator
+**[Pulley](https://github.com/52inc/Pulley)**
+<br/>iOS Maps-style drawer library with 2k+ stars, created at 52 Inc.
 <br/>
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Stars](https://img.shields.io/github/stars/ulmentflam/key-gen?style=flat-square&color=2DD4BF)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![Stars](https://img.shields.io/github/stars/52inc/Pulley?style=flat-square&color=2DD4BF)
 
 </td>
 </tr>
