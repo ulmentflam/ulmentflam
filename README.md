@@ -17,15 +17,16 @@
 
 ### Hey, I'm Evan
 
-AI researcher and systems engineer with **10+ years** shipping production systems at scale. Former Co-Founder & CTO at **QWERKY AI**, where I distilled **70B-parameter LLMs into 3B-8B hybrid models on 24 H200 GPUs** with a **pending patent** on novel attention architectures. Currently pursuing my **MS in Computer Science at Georgia Tech** (BS CS, *Summa Cum Laude*, University of South Carolina). I've led teams of **20+ engineers** and shipped **15+ production applications** across AI, blockchain, and distributed systems.
+AI researcher and systems engineer. A decade shipping in production -- across AI, blockchain, and distributed systems.
 
-### What I'm Working On
+Most recently **Co-Founder & CTO at [QWERKY AI](https://qwerky.ai)** -- distilled **70B-parameter LLMs into 3B-8B hybrid models on 24 H200 GPUs**, pending patent on the attention architecture.
 
-- **[Nightly](https://github.com/ulmentflam/nightly)** -- Turns your coding CLI into a self-directed, drainable session that lands review-shaped PRs by morning
-- **[Corpus Forge](https://github.com/ulmentflam/corpus-forge)** -- Filesystem-to-SQL sync with vector embeddings for storing and serving sovereign AI models
-- **[Autosentry](https://github.com/ulmentflam/autosentry)** -- Self-healing supervisor for long-running processes -- watch, catch the failure, fix it, leave a paper trail
-- **LLM Architecture Research** -- Custom CUDA kernels for novel attention mechanisms (pending patent)
-- **State Space Models** -- Mamba SSM architecture in Modular's MAX framework (selective scan, causal conv1d, RMSNorm kernels in Mojo)
+Now in the **MS Computer Science** program at **Georgia Tech**. BS CS, *Summa Cum Laude*, University of South Carolina.
+
+### Current Research
+
+- **Novel attention architectures** -- custom CUDA kernels for hybrid LLM distillation (pending patent)
+- **State Space Models in [MAX](https://github.com/modular/modular)** -- Mamba SSM in Modular's framework: selective scan, causal conv1d, and RMSNorm kernels written in Mojo
 
 ### Tech Stack
 
@@ -68,7 +69,7 @@ AI researcher and systems engineer with **10+ years** shipping production system
 <br/>Turns your coding CLI (Claude Code, Codex, Cursor, Gemini) into a self-directed, drainable session that lands review-shaped PRs by morning.
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Stars](https://img.shields.io/github/stars/ulmentflam/nightly?style=flat-square&color=2DD4BF)
+![Stars](https://img.shields.io/github/stars/ulmentflam/nightly?style=flat-square&color=2DD4BF&cb=1)
 
 </td>
 <td width="50%">
@@ -77,7 +78,7 @@ AI researcher and systems engineer with **10+ years** shipping production system
 <br/>Syncs a local filesystem with a SQL database and vector embeddings -- storage and serving for sovereign AI models.
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Stars](https://img.shields.io/github/stars/ulmentflam/corpus-forge?style=flat-square&color=2DD4BF)
+![Stars](https://img.shields.io/github/stars/ulmentflam/corpus-forge?style=flat-square&color=2DD4BF&cb=1)
 
 </td>
 </tr>
@@ -88,7 +89,7 @@ AI researcher and systems engineer with **10+ years** shipping production system
 <br/>Self-healing supervisor for long-running processes -- watch a command, catch the failure, fix it, leave a paper trail.
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Stars](https://img.shields.io/github/stars/ulmentflam/autosentry?style=flat-square&color=2DD4BF)
+![Stars](https://img.shields.io/github/stars/ulmentflam/autosentry?style=flat-square&color=2DD4BF&cb=1)
 
 </td>
 <td width="50%">
@@ -98,7 +99,7 @@ AI researcher and systems engineer with **10+ years** shipping production system
 <br/>
 ![Mojo](https://img.shields.io/badge/Mojo-FF6F00?style=flat-square&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Stars](https://img.shields.io/github/stars/modular/modular?style=flat-square&color=2DD4BF)
+![Stars](https://img.shields.io/github/stars/modular/modular?style=flat-square&color=2DD4BF&cb=1)
 
 </td>
 </tr>
@@ -119,7 +120,7 @@ AI researcher and systems engineer with **10+ years** shipping production system
 <br/>iOS Maps-style drawer library with 2k+ stars, created at 52 Inc.
 <br/>
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![Stars](https://img.shields.io/github/stars/52inc/Pulley?style=flat-square&color=2DD4BF)
+![Stars](https://img.shields.io/github/stars/52inc/Pulley?style=flat-square&color=2DD4BF&cb=1)
 
 </td>
 </tr>
@@ -150,7 +151,5 @@ AI researcher and systems engineer with **10+ years** shipping production system
 ---
 
 <p align="center">
-  See more of my work below
-  <br/><br/>
   <img src="https://komarev.com/ghpvc/?username=ulmentflam&color=2DD4BF&style=flat-square&label=Profile+Views" alt="Profile Views"/>
 </p>
