@@ -144,10 +144,6 @@ AI researcher and systems engineer with **10+ years** shipping production system
 </p>
 
 <p align="center">
-  <img src="assets/activity-graph.svg" alt="Activity Graph" width="100%"/>
-</p>
-
-<p align="center">
   <img src="assets/snake.svg" alt="Contribution Snake" width="100%"/>
 </p>
 
