@@ -140,7 +140,7 @@ AI researcher and systems engineer with **10+ years** shipping production system
 
 <p align="center">
   <img src="assets/stats.svg" alt="GitHub Stats" height="170"/>
-  <img src="https://streak-stats.demolab.com?user=ulmentflam&hide_border=true&background=1A1F2E&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" alt="GitHub Streak" height="170"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ulmentflam&theme=react-dark&bg_color=1a1f2e&color=2dd4bf&line=2dd4bf&point=ffffff&hide_border=true&area=true" alt="Activity Graph" height="170"/>
 </p>
 
 <p align="center">

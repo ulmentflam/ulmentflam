@@ -18,7 +18,7 @@ jobs:
       - uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=ulmentflam&show_icons=true&hide_border=true&bg_color=1a1f2e&title_color=2DD4BF&icon_color=2DD4BF&text_color=ffffff&ring_color=2DD4BF
+          options: username=ulmentflam&show_icons=true&hide_border=true&include_all_commits=true&show=prs_merged,prs_merged_percentage,reviews&rank_icon=percentile&bg_color=1a1f2e&title_color=2DD4BF&icon_color=2DD4BF&text_color=ffffff&ring_color=2DD4BF
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
