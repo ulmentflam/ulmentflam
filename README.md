@@ -17,16 +17,16 @@
 
 ### Hey, I'm Evan
 
-AI researcher and systems engineer. A decade shipping in production -- across AI, blockchain, and distributed systems.
+AI researcher and systems engineer. A decade in production -- distributed systems, blockchain, and LLM infrastructure.
 
 Most recently **Co-Founder & CTO at [QWERKY AI](https://qwerky.ai)** -- distilled **70B-parameter LLMs into 3B-8B hybrid models on 24 H200 GPUs**, pending patent on the attention architecture.
 
-Now in the **MS Computer Science** program at **Georgia Tech**. BS CS, *Summa Cum Laude*, University of South Carolina.
+Pursuing an **MS in Computer Science** at **Georgia Tech**. BS CS, *Summa Cum Laude*, University of South Carolina.
 
 ### Current Research
 
 - **Novel attention architectures** -- custom CUDA kernels for hybrid LLM distillation (pending patent)
-- **State Space Models in [MAX](https://github.com/modular/modular)** -- Mamba SSM in Modular's framework: selective scan, causal conv1d, and RMSNorm kernels written in Mojo
+- **State Space Models in [MAX](https://github.com/modular/modular)** -- Mamba SSM architecture: selective scan, causal conv1d, and RMSNorm kernels in Mojo
 
 ### Tech Stack
 
@@ -95,7 +95,7 @@ Now in the **MS Computer Science** program at **Georgia Tech**. BS CS, *Summa Cu
 <td width="50%">
 
 **[Modular MAX Framework](https://github.com/modular/modular)**
-<br/>Mamba SSM architecture with custom selective scan, causal conv1d, and RMSNorm kernels in Mojo
+<br/>Mamba SSM architecture with custom selective scan, causal conv1d, and RMSNorm kernels in Mojo.
 <br/>
 ![Mojo](https://img.shields.io/badge/Mojo-FF6F00?style=flat-square&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
@@ -135,7 +135,7 @@ Now in the **MS Computer Science** program at **Georgia Tech**. BS CS, *Summa Cu
 - [Incidental Non-Determinism: When AI Surprises You (and Why)](https://qwerky.ai/blog/incidental-non-determinism) -- May 2025
 <!-- BLOG-POST-LIST:END -->
 
-[Read more on the QWERKY AI blog &rarr;](https://qwerky.ai/blog)
+[Read more on the QWERKY AI blog →](https://qwerky.ai/blog)
 
 ### GitHub Stats
 
