@@ -29,8 +29,26 @@ jobs:
           path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ulmentflam
+          outputs: |
+            assets/snake.svg?palette=github-dark&color_snake=#2dd4bf&color_dots=#1f2937,#0f766e,#14b8a6,#2dd4bf,#5eead4
+
+      - name: Fetch activity graph (with stale-fallback)
+        run: |
+          URL="https://github-readme-activity-graph.vercel.app/graph?username=ulmentflam&theme=react-dark&bg_color=1a1f2e&color=2dd4bf&line=2dd4bf&point=ffffff&hide_border=true&area=true"
+          curl -fsSL --max-time 30 "$URL" -o /tmp/activity-graph.svg || true
+          if [ -s /tmp/activity-graph.svg ] && ! grep -q "Can't fetch" /tmp/activity-graph.svg; then
+            cp /tmp/activity-graph.svg assets/activity-graph.svg
+            echo "Activity graph updated"
+          else
+            echo "Activity graph fetch failed or returned error SVG; keeping previous version"
+          fi
+
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/top-langs.svg
+          git add assets/stats.svg assets/top-langs.svg assets/snake.svg assets/activity-graph.svg
           git diff --staged --quiet || git commit -m "Update GitHub stats cards" && git push

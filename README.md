@@ -140,11 +140,15 @@ AI researcher and systems engineer with **10+ years** shipping production system
 
 <p align="center">
   <img src="assets/stats.svg" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ulmentflam&theme=react-dark&bg_color=1a1f2e&color=2dd4bf&line=2dd4bf&point=ffffff&hide_border=true&area=true" alt="Activity Graph" height="170"/>
+  <img src="assets/top-langs.svg" alt="Top Languages" height="170"/>
 </p>
 
 <p align="center">
-  <img src="assets/top-langs.svg" alt="Top Languages" height="170"/>
+  <img src="assets/activity-graph.svg" alt="Activity Graph" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="assets/snake.svg" alt="Contribution Snake" width="100%"/>
 </p>
 
 ---
