@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Evan Owen's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 10, Total Commits  : 1337, Total PRs: 236, Total PRs Merged: 190, Merged PRs Percentage: 80.51, Total PRs Reviewed: 4, Total Issues: 37, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars Earned: 10, Total Commits  : 1341, Total PRs: 237, Total PRs Merged: 190, Merged PRs Percentage: 80.17, Total PRs Reviewed: 4, Total Issues: 37, Contributed to (last year): 3</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 106.63070677621218;
+        stroke-dashoffset: 106.5519759295772;
       }
     }
   
@@ -195,7 +195,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >236</text>
+      >237</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -225,7 +225,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >80.51 %</text>
+      >80.17 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
