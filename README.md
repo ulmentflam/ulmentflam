@@ -85,11 +85,11 @@ Pursuing an **MS in Computer Science** at **Georgia Tech**. BS CS, *Summa Cum La
 <tr>
 <td width="50%">
 
-**[Autosentry](https://github.com/ulmentflam/autosentry)**
-<br/>Self-healing supervisor for long-running processes -- watch a command, catch the failure, fix it, leave a paper trail.
+**[llm.mojo](https://github.com/ulmentflam/llm.mojo)**
+<br/>Andrej Karpathy's llm.c ported to Mojo -- LLM training with extended GPU kernels, built for the Mojo v1.0.0 release.
 <br/>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Stars](https://img.shields.io/github/stars/ulmentflam/autosentry?style=flat-square&color=2DD4BF&cb=1)
+![Mojo](https://img.shields.io/badge/Mojo-FF6F00?style=flat-square&logoColor=white)
+![Stars](https://img.shields.io/github/stars/ulmentflam/llm.mojo?style=flat-square&color=2DD4BF&cb=1)
 
 </td>
 <td width="50%">
@@ -106,6 +106,15 @@ Pursuing an **MS in Computer Science** at **Georgia Tech**. BS CS, *Summa Cum La
 <tr>
 <td width="50%">
 
+**[Autosentry](https://github.com/ulmentflam/autosentry)**
+<br/>Self-healing supervisor for long-running processes -- watch a command, catch the failure, fix it, leave a paper trail.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Stars](https://img.shields.io/github/stars/ulmentflam/autosentry?style=flat-square&color=2DD4BF&cb=1)
+
+</td>
+<td width="50%">
+
 **[QWERKY AI](https://qwerky.ai)**
 <br/>Distilled 70B→3B-8B hybrid models on 24 H200 GPUs. 4x inference throughput, 1M token context. Pending patent on novel attention architecture.
 <br/>
@@ -114,6 +123,8 @@ Pursuing an **MS in Computer Science** at **Georgia Tech**. BS CS, *Summa Cum La
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **[Pulley](https://github.com/52inc/Pulley)**
@@ -123,6 +134,7 @@ Pursuing an **MS in Computer Science** at **Georgia Tech**. BS CS, *Summa Cum La
 ![Stars](https://img.shields.io/github/stars/52inc/Pulley?style=flat-square&color=2DD4BF&cb=1)
 
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
