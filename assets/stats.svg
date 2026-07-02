@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Evan Owen's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 10, Total Commits  : 1379, Total PRs: 241, Total PRs Merged: 193, Merged PRs Percentage: 80.08, Total PRs Reviewed: 4, Total Issues: 37, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars Earned: 10, Total Commits  : 1380, Total PRs: 241, Total PRs Merged: 193, Merged PRs Percentage: 80.08, Total PRs Reviewed: 4, Total Issues: 37, Contributed to (last year): 3</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 105.75770727267947;
+        stroke-dashoffset: 105.74654781216096;
       }
     }
   
