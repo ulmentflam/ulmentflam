@@ -21,7 +21,7 @@ AI researcher and systems engineer. A decade in production -- distributed system
 
 Most recently **Co-Founder & CTO at [QWERKY AI](https://qwerky.ai)** -- distilled **70B-parameter LLMs into 3B-8B hybrid models on 24 H200 GPUs**, pending patent on the attention architecture.
 
-Pursuing an **MS in Computer Science** at **Georgia Tech**. BS CS, *Summa Cum Laude*, University of South Carolina.
+Pursuing an **MS in Computer Science** at **Georgia Tech**, where I am a TA for **CS 6601 Artificial Intelligence** in OMSCS. BS CS, *Summa Cum Laude*, University of South Carolina.
 
 ### Current Research
 
