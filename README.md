@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/johnwowen3"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://qwerky.ai/blog"><img src="https://img.shields.io/badge/Blog-2DD4BF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog"/></a>
+  <a href="https://web.archive.org/web/20260712180839/https://qwerky.ai/blog"><img src="https://img.shields.io/badge/Blog-2DD4BF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog"/></a>
   <a href="https://ulmentflam.github.io/about-me"><img src="https://img.shields.io/badge/Portfolio-1a1f2e?style=for-the-badge&logo=firefox-browser&logoColor=2DD4BF" alt="Portfolio"/></a>
   <a href="mailto:evan@jwo3.io"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
@@ -86,7 +86,7 @@ Pursuing an **MS in Computer Science** at **Georgia Tech**. BS CS, *Summa Cum La
 <td width="50%">
 
 **[llm.mojo](https://github.com/ulmentflam/llm.mojo)**
-<br/>Andrej Karpathy's llm.c ported to Mojo -- LLM training with extended GPU kernels, built for the Mojo v1.0.0 release.
+<br/>Karpathy's llm.c ported to pure Mojo -- GPT-2 training with hand-written CUDA and Metal kernels. bf16 parity with llm.c on NVIDIA, 1.72x faster than PyTorch MPS on Apple Silicon.
 <br/>
 ![Mojo](https://img.shields.io/badge/Mojo-FF6F00?style=flat-square&logoColor=white)
 ![Stars](https://img.shields.io/github/stars/ulmentflam/llm.mojo?style=flat-square&color=2DD4BF&cb=1)
@@ -141,19 +141,23 @@ Pursuing an **MS in Computer Science** at **Georgia Tech**. BS CS, *Summa Cum La
 ### Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
-- [Bringing Blazing Fast State Space Models to the Modular MAX Framework](https://qwerky.ai/blog/bringing-blazing-fast-state-space-models-to-the-modular-max-framework) -- Feb 2026
-- [Mother May AI: An Opinion on Geoffrey Hinton's Mother AI](https://qwerky.ai/blog/mother-may-ai-an-opinion-on-geoffrey-hintons-mother-ai) -- Sep 2025
-- [Attention: The Breakthroughs and the Bottlenecks](https://qwerky.ai/blog/attention-the-breakthroughs-and-the-bottlenecks) -- Jun 2025
-- [Incidental Non-Determinism: When AI Surprises You (and Why)](https://qwerky.ai/blog/incidental-non-determinism) -- May 2025
+- [Bringing Blazing Fast State Space Models to the Modular MAX Framework](https://web.archive.org/web/20260205104849/https://qwerky.ai/blog/bringing-blazing-fast-state-space-models-to-the-modular-max-framework) -- Feb 2026
+- [Mother May AI: An Opinion on Geoffrey Hinton's Mother AI](https://web.archive.org/web/20260310220537/https://www.qwerky.ai/blog/mother-may-ai-an-opinion-on-geoffrey-hintons-mother-ai) -- Sep 2025
+- [Attention: The Breakthroughs and the Bottlenecks](https://web.archive.org/web/20260310222717/https://www.qwerky.ai/blog/page/2) -- Jun 2025
+- [Incidental Non-Determinism: When AI Surprises You (and Why)](https://web.archive.org/web/20250515223839/https://www.qwerky.ai/blog/incidental-non-determinism) -- May 2025
 <!-- BLOG-POST-LIST:END -->
 
-[Read more on the QWERKY AI blog →](https://qwerky.ai/blog)
+[Read more on the QWERKY AI blog (archived) →](https://web.archive.org/web/20260712180839/https://qwerky.ai/blog)
 
 ### GitHub Stats
 
 <p align="center">
   <img src="assets/stats.svg" alt="GitHub Stats" height="170"/>
   <img src="assets/top-langs.svg" alt="Top Languages" height="170"/>
+</p>
+
+<p align="center">
+  <img src="assets/activity-graph.svg" alt="Contribution Activity Graph" width="100%"/>
 </p>
 
 <p align="center">

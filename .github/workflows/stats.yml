@@ -15,19 +15,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: readme-tools/github-readme-stats-action@v1
+      - uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
         with:
           card: stats
           options: username=ulmentflam&show_icons=true&hide_border=true&include_all_commits=true&show=prs_merged,prs_merged_percentage,reviews&rank_icon=percentile&bg_color=1a1f2e&title_color=2DD4BF&icon_color=2DD4BF&text_color=ffffff&ring_color=2DD4BF
           path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
 
-      - uses: readme-tools/github-readme-stats-action@v1
+      - uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
         with:
           card: top-langs
           options: username=ulmentflam&layout=compact&hide_border=true&bg_color=1a1f2e&title_color=2DD4BF&text_color=ffffff&langs_count=8
           path: assets/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Keep previous cards if generation failed
+        run: |
+          for f in assets/stats.svg assets/top-langs.svg; do
+            if grep -q "Something went wrong" "$f"; then
+              git checkout -- "$f"
+              echo "$f returned an error card; keeping previous version"
+            fi
+          done
 
       - name: Generate snake animation
         uses: Platane/snk@v3
